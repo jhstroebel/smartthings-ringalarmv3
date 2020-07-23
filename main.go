@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/asishrs/smartthings-ringalarmv2/cmd"
+	"github.com/jhstroebel/smartthings-ringalarmv3/cmd"
 	"github.com/jhstroebel/smartthings-ringalarmv3/httputil"
 	"github.com/jhstroebel/smartthings-ringalarmv3/public"
 	"github.com/jhstroebel/smartthings-ringalarmv3/wsutil"
