@@ -1,4 +1,4 @@
-module github.com/asishrs/smartthings-ringalarmv2
+module github.com/jhstroebel/smartthings-ringalarmv3
 
 go 1.13
 

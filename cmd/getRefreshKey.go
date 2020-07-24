@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/asishrs/smartthings-ringalarmv2/httputil"
+	"github.com/jhstroebel/smartthings-ringalarmv3/httputil"
 	"github.com/spf13/cobra"
 )
 
