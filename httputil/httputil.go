@@ -92,6 +92,7 @@ type V1 struct {
 	PanID   int    `json:"panId"`
 	Faulted bool   `json:"faulted"`
 	Mode    string `json:"mode"`
+	Locked  string `json:"locked"`
 }
 
 type Adapter struct {
