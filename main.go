@@ -160,7 +160,7 @@ func getLockStatus(apiRequest public.Request) (events.APIGatewayProxyResponse, e
 
 	for i := range ringDeviceInfo.Body {
 		// log.Printf("RDName: %s, Type: %s, Fault: %v, Mode: %s\n", ringDeviceInfo.Body[i].General.V2.Name, ringDeviceInfo.Body[i].General.V2.DeviceType, ringDeviceInfo.Body[i].Device.V1.Faulted, ringDeviceInfo.Body[i].Device.V1.Mode)
-		deviceStatus = append(deviceStatus, public.RingDeviceStatus{ringDeviceInfo.Body[i].General.V2.Name, ringDeviceInfo.Body[i].General.V2.DeviceType, ringDeviceInfo.Body[i].Device.V1.Faulted, ringDeviceInfo.Body[i].Device.V1.Locked})
+		deviceStatus = append(deviceStatus, public.RingDeviceStatus{ringDeviceInfo.Body[i].General.V2.ZID, ringDeviceInfo.Body[i].General.V2.Name, ringDeviceInfo.Body[i].General.V2.DeviceType, ringDeviceInfo.Body[i].Device.V1.Faulted, ringDeviceInfo.Body[i].Device.V1.Locked})
 	}
 
 	/*
